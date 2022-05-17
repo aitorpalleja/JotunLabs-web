@@ -1,6 +1,4 @@
 import React, { useCallback } from 'react';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import logo from './assets/logo192.png';
 import './App.css';
 import Header from './components/Header';
