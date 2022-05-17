@@ -1,7 +1,7 @@
 {
   "background": {
     "color": {
-      "value": "#282c34"
+      "value": "#2e2f63"
     }
   },
   "fpsLimit": 120,
@@ -48,7 +48,7 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 6,
+      "speed": 2,
       "straight": false
     },
     "number": {
