@@ -8,7 +8,10 @@ function App() {
     return (
         <div className="App">
             <Header></Header>
-            
+            <div className='header__text'>
+                <h1 className='header__text-title'>Welcome to WEB3</h1>
+                
+            </div>
         </div>
     );
 }

@@ -12,7 +12,6 @@ function Header() {
             <Particles 
             options={particlesOptions} 
             init={particlesInit}
-            fullScreen={false}
             />
 
     );

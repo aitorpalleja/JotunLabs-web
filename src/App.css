@@ -46,3 +46,40 @@
     top: 0;
     z-index: -1;
 }
+
+.header__text{
+    color:white;
+    margin-top: 18%;
+    margin-right: 30%;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .header__text{
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-top: 50%;
+      }
+    }
+
+.header__text-title{
+    font-size: 70px;
+
+}
+
+.header__text-subtitle{
+    font-size: 40px;
+    margin-right: 5%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header__text-subtitlet{
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-top: 50%;
+    font-size: 30px;
+      }
+    }
