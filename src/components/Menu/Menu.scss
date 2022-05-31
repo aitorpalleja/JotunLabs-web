@@ -1,0 +1,50 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px;
+
+}
+
+.menu li {
+  width: 125px;
+  height: 40px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+
+  &:hover a {
+    color: #fca311;
+
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}

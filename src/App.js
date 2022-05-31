@@ -1,17 +1,16 @@
-import React, { useCallback } from 'react';
-import logo from './assets/logo192.png';
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
+import AboutUs from './components/AboutUs/AboutUs';
+import Header from './components/Header/Header';
+import HeaderLinkButton from './components/HeaderLinkButton/HeaderLinkButton';
+import Menu from './components/Menu/Menu'
 
 function App() {
-
     return (
         <div className="App">
+            <Menu></Menu>
             <Header></Header>
-            <div className='header__text'>
-                <h1 className='header__text-title'>Welcome to WEB3</h1>
-                
-            </div>
+
         </div>
     );
 }

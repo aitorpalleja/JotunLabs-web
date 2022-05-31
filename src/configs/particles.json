@@ -4,6 +4,9 @@
       "value": "#000000"
     }
   },
+  "fullScreen": { 
+    "enable": false 
+  },
   "fpsLimit": 120,
   "interactivity": {
     "events": {
