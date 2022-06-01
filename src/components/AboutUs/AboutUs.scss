@@ -1,16 +1,21 @@
 .about-us__body {
     background-color: #000000;
     color: white;
-    margin-top: 1000px;
+    margin-top: 410px;
+    text-align: center;
 
 }
 
 .about-us__text-container {
-    width: 50%;
-    text-align: center;
+
 }
 
 .about-us__paragraph {
 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 

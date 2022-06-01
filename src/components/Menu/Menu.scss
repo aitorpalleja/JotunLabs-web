@@ -13,21 +13,18 @@ html {
   height: 100%;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-top: 20px;
-
+ul {
+  padding-top: 30px;
 }
 
-.menu li {
-  width: 125px;
-  height: 40px;
+ li {
+  width: 40px;
   transition: background-position-x 0.9s linear;
-  text-align: center;
+  display: inline-block;
+  height: 50px;
+  margin-left: 30px;
 
-  a {
+a {
     color: #ffffff;
     text-decoration: none;
     transition: all 0.45s;
@@ -47,4 +44,26 @@ html {
   0% {
     background-position-x: 390px;
   }
+}
+
+.logo {
+  vertical-align: top;
+  width: 45px;
+  margin-left: 20px;
+  margin-top: 15px;
+  float: left;
+  }
+
+.team {
+  margin-left: 20px;
+}
+
+.menu {
+  border-bottom: 1px solid rgba(252, 163, 17, .5);
+  -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+nav {
+  background-color: black;
 }

@@ -1,14 +1,17 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import '../Menu/Menu.scss'
+import logo from "../../assets/lug.png"
 
 function Menu() {
     return (
-    <nav>
-    <ul class="menu">
+    <nav class="menu">
+    <img src={logo} className="logo" />
+    <ul>
         <li><a href="#!">Home</a></li>
-        <li><a href="#!">About us</a></li>
+        <li><a href="#!">About</a></li>
         <li><a href="#!">Roadmap</a></li>
-        <li><a href="#!">Team</a></li>
+        <li><a className='team' href="#!">Team</a></li>
+
     </ul>
     </nav>
     );
