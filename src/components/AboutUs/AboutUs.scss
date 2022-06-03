@@ -2,20 +2,29 @@
     background-color: #000000;
     color: white;
     margin-top: 410px;
-    text-align: center;
-
+    display: flex;
 }
 
-.about-us__text-container {
-
+.about-us__text {
+    margin: auto;
+    position: relative;
+    max-width: 120ch;
 }
 
-.about-us__paragraph {
+.about-us__title {
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 10px;
+    text-decoration-color: #fca311;
 
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
+    
+.about-us__subtitle {
+    font-size: 16px;
+    color: #e5e5e5;
+    margin-top: 30px;
+    opacity: 0.8;
 
+
+}

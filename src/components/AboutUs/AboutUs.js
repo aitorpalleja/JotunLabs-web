@@ -4,20 +4,28 @@ import '../AboutUs/AboutUs.scss'
 function AboutUs() {
     return (
     <div className='about-us__body'>
-        <div className='about-us__text-container'>
-            <h2>What is ANTS WBP?</h2>
-            <p className='about-us__paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec blandit ex. Vivamus odio nibh, rutrum volutpat ultricies sit amet, blandit ut lacus. 
-               Quisque et condimentum lacus, vel imperdiet lorem. Quisque sodales at justo eu maximus. Cras nec libero diam. Sed ante metus, pellentesque sit amet elementum et, faucibus eget nisl. 
-               Duis lobortis arcu sed libero rhoncus, vel rhoncus ligula consequat. Ut efficitur, risus vel semper ornare, quam purus rutrum enim, et laoreet tellus dui ut erat. Duis mattis eget lectus in blandit. 
-               Pellentesque quam lacus, molestie vel purus sit amet, consequat blandit nunc. Nam lacus libero, hendrerit vitae diam vitae, interdum facilisis neque. Nam non eleifend sapien. Sed quis condimentum diam. 
-               Fusce ut consequat ante. Donec mattis elementum tortor, eget efficitur diam tincidunt id. Aliquam pretium tempor turpis in mattis. Aliquam elementum erat mauris, vel tincidunt turpis vulputate a. Nam ut 
-               felis vitae purus sodales molestie. Morbi lectus dolor, congue nec accumsan ut, condimentum ut erat. Nullam interdum tristique nisl, quis pellentesque leo vehicula eget. Nunc commodo sodales felis sit amet imperdiet. Proin arcu neque, lacinia a auctor eu, vehicula nec metus. Donec quis libero orci. Pellentesque eleifend venenatis consectetur. Praesent ut commodo enim. Vestibulum et ligula sed tellus venenatis elementum at eu mi. Aenean non nibh sodales, bibendum tortor nec, porttitor felis. Etiam bibendum eu magna et gravida. In cursus molestie tortor, nec posuere nisl dapibus eget.
-            </p>
-            </div>
+        <div className='about-us__text'>
+            <p className='about-us__title'>What is Ants Lab?</p>
+            <p className='about-us__subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget accumsan magna. 
+            Aliquam et sollicitudin augue, vitae sagittis quam. Pellentesque lobortis urna nibh, sit amet dapibus turpis blandit sit amet. 
+            In non nibh et augue faucibus rutrum vel non odio. Nam condimentum nisl lobortis, tincidunt arcu finibus, sagittis sapien. 
+            Suspendisse potenti. Mauris at mi sollicitudin lectus vehicula mattis. 
+            Suspendisse aliquet, est eu bibendum viverra, odio nunc finibus purus, ut efficitur turpis sem sit amet ipsum.</p>
 
-    </div>    
+            <p className='about-us__subtitle'>Aliquam quis odio mauris. Donec accumsan mollis tempus. In mollis ultricies egestas. Phasellus feugiat quam id porttitor vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Duis vel volutpat sem. Nullam cursus efficitur lectus ut luctus. Vestibulum mattis dolor ut finibus mattis. Vivamus lobortis ex a lacinia auctor. Pellentesque tempor neque sed erat pretium semper. Phasellus vitae aliquet ex. 
+            Nulla non tortor a metus fermentum accumsan eget at arcu. Duis nec finibus odio. Curabitur rutrum pellentesque odio placerat mattis. Vestibulum ac erat vitae turpis commodo malesuada. Phasellus semper congue metus a faucibus.</p>
+
+            <p className='about-us__subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget accumsan magna. 
+            Aliquam et sollicitudin augue, vitae sagittis quam. Pellentesque lobortis urna nibh, sit amet dapibus turpis blandit sit amet. 
+            In non nibh et augue faucibus rutrum vel non odio. Nam condimentum nisl lobortis, tincidunt arcu finibus, sagittis sapien. 
+            Suspendisse potenti. Mauris at mi sollicitudin lectus vehicula mattis. 
+            Suspendisse aliquet, est eu bibendum viverra, odio nunc finibus purus, ut efficitur turpis sem sit amet ipsum.</p>
+        </div> 
+    </div>
 
     );
 }
 
 export default AboutUs;
+

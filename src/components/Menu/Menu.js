@@ -4,8 +4,8 @@ import logo from "../../assets/lug.png"
 
 function Menu() {
     return (
-    <nav class="menu">
-    <img src={logo} className="logo" />
+    <nav className="menu">
+    <img src={logo} className="logo" alt='logo'/>
     <ul>
         <li><a href="#!">Home</a></li>
         <li><a href="#!">About</a></li>
