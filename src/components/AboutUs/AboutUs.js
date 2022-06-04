@@ -3,7 +3,7 @@ import '../AboutUs/AboutUs.scss'
 
 function AboutUs() {
     return (
-    <div className='about-us__body'>
+    <div className='about-us__body' id='about-us'>
         <div className='about-us__text'>
             <p className='about-us__title'>What is Ants Lab?</p>
             <p className='about-us__subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget accumsan magna. 
