@@ -3,7 +3,7 @@ import '../HeaderLinkButton/HeaderLinkButton.scss'
 
 function HeaderLinkButton() {
     return (
-        <a href="https://magiceden.io" className='myButton' target='_blank' >See our collection</a>      
+        <a href="https://magiceden.io" className='myButton' target='_blank' without rel="noreferrer" >See our collection</a>
 
     );
 }

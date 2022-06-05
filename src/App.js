@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
 import Header from './components/Header/Header';
-import HeaderLinkButton from './components/HeaderLinkButton/HeaderLinkButton';
 import HeaderText from './components/HeaderText/HeaderText';
 import Menu from './components/Menu/Menu'
 import Roadmap from './components/Roadmap/Roadmap';
+import TeamCard from './components/TeamCard/TeamCard'
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
             <HeaderText></HeaderText>
             <AboutUs></AboutUs>
             <Roadmap></Roadmap>
-            
+            <TeamCard></TeamCard>
 
         </div>
     );

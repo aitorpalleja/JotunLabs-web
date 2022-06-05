@@ -1,7 +1,7 @@
 .about-us__body {
     background-color: #000000;
     color: white;
-    margin-top: 410px;
+    margin-top: 460px;
     display: flex;
 }
 
@@ -19,7 +19,7 @@
     text-decoration-color: #fca311;
 
 }
-    
+
 .about-us__subtitle {
     font-size: 16px;
     color: #e5e5e5;
@@ -27,4 +27,14 @@
     opacity: 0.8;
 
 
+}
+
+.roadmap__title {
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 10px;
+    text-decoration-color: #fca311;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }

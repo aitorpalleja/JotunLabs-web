@@ -11,9 +11,9 @@ function Header() {
 
     return (
         <div className='particles-body'>
-            <Particles 
-            options={particlesOptions} 
-            init={particlesInit}
+            <Particles
+                options={particlesOptions}
+                init={particlesInit}
             />
         </div>
     );
