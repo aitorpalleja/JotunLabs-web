@@ -24,6 +24,7 @@ li {
   height: 50px;
   margin-left: 30px;
 
+
   a {
     color: #ffffff;
     text-decoration: none;
@@ -59,6 +60,18 @@ li {
 }
 
 .menu {
+  background-color: black;
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+
+.menu__icons{
+float: right;
+}
+
+.fondo {
+  background-color: black;
   border-bottom: 1px solid rgba(252, 163, 17, .5);
   -webkit-background-clip: padding-box;
   /* for Safari */
@@ -66,6 +79,6 @@ li {
   /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
-nav {
-  background-color: black;
+.menu__last {
+  margin-left: 30px;
 }

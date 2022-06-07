@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HeaderText from './components/HeaderText/HeaderText';
 import Menu from './components/Menu/Menu'
@@ -17,6 +18,7 @@ function App() {
             <AboutUs></AboutUs>
             <Roadmap></Roadmap>
             <TeamCard></TeamCard>
+            <Footer></Footer>
 
         </div>
     );
