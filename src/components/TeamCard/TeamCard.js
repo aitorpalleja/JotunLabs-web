@@ -4,7 +4,7 @@ import profile from '../../assets/MoneyBoy.png'
 
 function TeamCard() {
     return (
-        <div className='team__body'>
+        <div className='team__body' id='team'>
             <p className='team__title'>Team</p>
             <div class="grid-container">
                 <div class="grid-item">

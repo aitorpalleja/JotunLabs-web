@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function Roadmap() {
   return (
-    <div className="timeline-content">
+    <div className="timeline-content" id='roadmap'>
       <p className='roadmap__title'>Roadmap</p>
       <VerticalTimeline>
         <VerticalTimelineElement

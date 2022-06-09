@@ -4,7 +4,7 @@ import '../Services/Services.scss'
 
 function Services() {
     return (
-        <div className='services'>
+        <div className='services' id='features'>
             <p className='services__title'>What we Provide</p>
             <div class="main-content">
                 <div class="palette__wrapper">
@@ -14,6 +14,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
+                            <p className="services__text">We are creating a web3 social network based on the Solana blockchain.</p>
                         </div>
                     </div>
                 </div>
@@ -24,6 +25,8 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
+                            <p className="services__text">We will launch our staking platform after the mint.
+                                Holders will be able to stake our NFTs to earn tokens.</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-
+                            <p className="services__text">Monthly rewards for holders who use our NFTs as a PFP on Twitter. SOL, raffles, NFTs, tokens...</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +48,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-
+                            <p className="services__text">We will organize DApp creation competitions. Our DAO will choose the winners, they will receive SOL and the opportunity to join our team.</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +59,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-
+                            <p className="services__text">Like <a href="https://coinmarketcap.com/" className='services__link' target="_blank" rel='noreferrer'> CoinMarketCap</a> but better.</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +70,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-
+                            <p className="services__text">Not a group of alpha hunters, a real DAO. With power over important decisions and over the path of the project.</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +81,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-
+                            <p className="services__text">A private discord group for holders who use our NFT as a profile picture on Twitter.</p>
                         </div>
                     </div>
                 </div>
@@ -89,6 +92,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
+                            <p className="services__text">We have two groups of developers who will work on different projects in parallel. All with years of experience in WEB2 companies.</p>
                         </div>
                     </div>
                 </div>

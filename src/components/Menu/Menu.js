@@ -4,6 +4,7 @@ import logo from "../../assets/lug.png"
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 
+
 function Menu() {
     return (
         <div className='fondo'>
@@ -12,8 +13,9 @@ function Menu() {
                 <ul>
                     <li><a href="#menu">Home</a></li>
                     <li><a href="#about-us">About</a></li>
+                    <li><a href="#features">Features</a></li>
                     <li><a href="#roadmap">Roadmap</a></li>
-                    <li><a className="menu__last" href="#team">Team</a></li>
+                    <li><a href="#team">Team</a></li>
                     <li className='menu__icons'><a href="#!"><FaDiscord /></a></li>
                     <li className='menu__icons'><a href="#!"><FaTwitter /></a></li>
                 </ul>
