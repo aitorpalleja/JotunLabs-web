@@ -22,7 +22,7 @@ function AboutUs() {
                     Suspendisse potenti. Mauris at mi sollicitudin lectus vehicula mattis.
                     Suspendisse aliquet, est eu bibendum viverra, odio nunc finibus purus, ut efficitur turpis sem sit amet ipsum.</p>
 
-                <p className='roadmap__title' id='roadmap'>Roadmap</p>
+                
             </div>
         </div>
 
