@@ -59,7 +59,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">Like <a href="https://coinmarketcap.com/" className='services__link' target="_blank" rel='noreferrer'> CoinMarketCap</a> but better.</p>
+                            <p className="services__text">Like <a href="https://coinmarketcap.com/" className='services__link' target="_blank" rel='noreferrer'> CoinMarketCap,</a> but better.</p>
                         </div>
                     </div>
                 </div>
