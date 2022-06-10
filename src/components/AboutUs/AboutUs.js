@@ -17,8 +17,6 @@ function AboutUs() {
                     In non nibh et augue faucibus rutrum vel non odio. Nam condimentum nisl lobortis, tincidunt arcu finibus, sagittis sapien.
                     Suspendisse potenti. Mauris at mi sollicitudin lectus vehicula mattis.
                     Suspendisse aliquet, est eu bibendum viverra, odio nunc finibus purus, ut efficitur turpis sem sit amet ipsum.</p>
-
-
             </div>
         </div>
 
