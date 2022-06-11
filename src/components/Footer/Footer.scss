@@ -9,4 +9,26 @@
 
 .footer__list {
     text-align: center;
+
+}
+
+.footer__li {
+    transition: background-position-x 0.9s linear;
+    display: inline-block;
+    height: 50px;
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.45s;
+    }
+
+    &:hover a {
+        color: #fca311;
+
+    }
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }

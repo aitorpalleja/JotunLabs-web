@@ -8,9 +8,9 @@ function Footer() {
     return (
         <nav className="footer">
             <ul className='footer__list'>
-                <li><a href="#!"><FaDiscord /></a></li>
-                <li><a href="#!"><FaTwitter /></a></li>
-                <li><a href="#!"><SiGitbook /></a></li>
+                <li className='footer__li'><a href="#!"><FaDiscord /></a></li>
+                <li className='footer__li'><a href="#!"><FaTwitter /></a></li>
+                <li className='footer__li'><a href="#!"><SiGitbook /></a></li>
             </ul>
         </nav>
     );
