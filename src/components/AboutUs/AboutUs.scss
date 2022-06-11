@@ -9,6 +9,12 @@
     margin: auto;
     position: relative;
     max-width: 120ch;
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 20px;
+        margin-right: 20px;
+
+      }
 }
 
 .about-us__title {

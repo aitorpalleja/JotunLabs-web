@@ -12,6 +12,12 @@
     color: white;
     text-underline-offset: 20px;
     text-decoration-color: #fca311;
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 20px;
+        
+        
+      }
 }
 
 .services {

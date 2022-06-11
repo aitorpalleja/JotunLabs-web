@@ -11,11 +11,11 @@ function Menu() {
             <nav className="menu" id='menu'>
                 <img src={logo} className="logo" alt='logo' />
                 <ul>
-                    <li><a href="#menu">Home</a></li>
-                    <li><a href="#about-us">About</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#roadmap">Roadmap</a></li>
-                    <li><a href="#team">Team</a></li>
+                    <li className='menu__li'><a href="#menu">Home</a></li>
+                    <li className='menu__li'><a href="#about-us">About</a></li>
+                    <li className='menu__li'><a href="#features">Features</a></li>
+                    <li className='menu__li'><a href="#roadmap">Roadmap</a></li>
+                    <li className='menu__li'><a href="#team">Team</a></li>
                     <li className='menu__icons'><a href="#!"><FaDiscord /></a></li>
                     <li className='menu__icons'><a href="#!"><FaTwitter /></a></li>
                 </ul>

@@ -16,4 +16,10 @@ body {
     text-decoration-color: #fca311;
     margin-bottom: 60px;
 
+    @media only screen and (max-width: 600px) {
+      margin-left: 20px;
+      
+      
+    }
+
 }

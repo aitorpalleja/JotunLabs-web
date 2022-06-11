@@ -17,7 +17,7 @@ ul {
   padding-top: 30px;
 }
 
-li {
+.menu__li {
   transition: background-position-x 0.9s linear;
   display: inline-block;
   height: 50px;
@@ -59,11 +59,29 @@ li {
   background-color: black;
   width: 1100px;
   margin: 0 auto;
-  
+
 }
 
-.menu__icons{
-float: right;
+.menu__icons {
+  float: right;
+  transition: background-position-x 0.9s linear;
+  height: 50px;
+  margin-left: 50px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+
+  &:hover a {
+    color: #fca311;
+
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .fondo {
