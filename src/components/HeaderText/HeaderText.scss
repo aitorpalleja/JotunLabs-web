@@ -21,10 +21,23 @@
 .title {
     font-size: 5rem;
     margin-bottom: 30px;
+
+    @media only screen and (max-width: 600px) {
+
+        font-size: 3rem;
+
+    }
 }
 
 .subtitle {
     font-size: 1.5rem;
+
+    @media only screen and (max-width: 600px) {
+
+        font-size: 1rem;
+        margin: 10px;
+
+    }
 }
 
 
@@ -39,11 +52,11 @@ mark.twitter {
 }
 
 mark.instagram {
-    color: white;    
+    color: white;
     background: none;
 }
 
 mark.whatsapp {
-    color: white;    
+    color: white;
     background: none;
 }
