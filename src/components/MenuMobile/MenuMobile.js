@@ -4,13 +4,23 @@ import { slide as Menu } from 'react-burger-menu'
 
 
 function MenuMobile() {
-    return (
-        <Menu>
-        <a id="home" className="menu-item" href="/about-us">Home</a>
-        <a id="about" className="menu-item" href="/roadmap">About</a>
-        <a id="contact" className="menu-item" href="#!">Contact</a>
-      </Menu>
-    );
+  return (
+    <div className='mobilemenu__body'>
+
+      <input type="checkbox" id="active"/>
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <div class="wrapper">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+    </div>
+  );
 }
 
 export default MenuMobile;

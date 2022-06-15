@@ -1,7 +1,6 @@
 import React from 'react';
 import '../TeamCard/TeamCard.scss'
 import profile from '../../assets/MoneyBoy.png'
-import { FaTwitter } from 'react-icons/fa';
 
 
 function TeamCard() {

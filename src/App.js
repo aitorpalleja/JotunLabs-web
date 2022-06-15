@@ -17,10 +17,10 @@ function App() {
             <MenuMobile></MenuMobile>
             <Header></Header>
             <HeaderText></HeaderText>
-            <AboutUs></AboutUs>
-            <Services></Services>
-            <Roadmap></Roadmap>
-            <TeamCard></TeamCard>
+            <div id="about"> <AboutUs></AboutUs></div>
+            <div id="services"> <Services></Services></div>
+            <div id="roadmap"> <Roadmap></Roadmap></div>
+            <div id="team"> <TeamCard></TeamCard></div>
             <Footer></Footer>
 
         </div>
