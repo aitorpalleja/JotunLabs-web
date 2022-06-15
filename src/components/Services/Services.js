@@ -70,7 +70,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">Not a group of alpha hunters, a real DAO. With power over important decisions and over the path of the project.</p>
+                            <p className="services__text">Not a group of alpha hunters, a real DAO. With power over important decisions and the path of the project.</p>
                         </div>
                     </div>
                 </div>
