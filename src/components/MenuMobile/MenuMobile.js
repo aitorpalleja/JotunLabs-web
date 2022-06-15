@@ -2,23 +2,76 @@ import React from 'react';
 import '../MenuMobile/MenuMobile.scss'
 import { slide as Menu } from 'react-burger-menu'
 
+import { Link } from "react-scroll";
+
+
+//import { Link, animateScroll as scroll } from "react-scroll";
+
+import { FaDiscord } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+
 
 function MenuMobile() {
   return (
     <div className='mobilemenu__body'>
 
-      <input type="checkbox" id="active"/>
-        <label for="active" class="menu-btn"><span></span></label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Feedback</a></li>
-          </ul>
-        </div>
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul>
+          <li><a href="#!">Home</a></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              About
+            </Link></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+            >
+              Features
+            </Link></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="roadmap"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+            >
+              Roadmap
+            </Link></li>
+          <li>
+            <Link
+              activeClass="active"
+              to="team"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={900}
+            >
+              Team
+            </Link></li>
+
+            <li>
+            <a href="#!"><FaDiscord /></a></li>
+            <li>
+            <a href="#!"><FaTwitter /></a></li>
+        </ul>
+      </div>
     </div>
   );
 }
