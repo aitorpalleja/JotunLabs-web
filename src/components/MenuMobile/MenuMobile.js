@@ -65,10 +65,9 @@ function MenuMobile() {
             >
               Team
             </Link></li>
-
-            <li>
+          <li>
             <a href="#!"><FaDiscord /></a></li>
-            <li>
+          <li>
             <a href="#!"><FaTwitter /></a></li>
         </ul>
       </div>
