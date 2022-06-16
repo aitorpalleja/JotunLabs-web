@@ -9,12 +9,13 @@ import Roadmap from './components/Roadmap/Roadmap';
 import Services from './components/Services/Services';
 import TeamCard from './components/TeamCard/TeamCard'
 import MenuMobile2 from './components/MenuMobile copy/MenuMobile'
+import MenuMobile from './components/MenuMobile/MenuMobile'
 
 function App() {
     return (
         <div className="App">
 
-            <MenuMobile2></MenuMobile2>
+            <MenuMobile></MenuMobile>
             <Header></Header>
             <HeaderText></HeaderText>
             <div id="about"> <AboutUs></AboutUs></div>
