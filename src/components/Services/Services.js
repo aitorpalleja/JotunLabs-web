@@ -5,7 +5,7 @@ import '../Services/Services.scss'
 function Services() {
     return (
         <div className='services' id='features'>
-            <p className='services__title'>What we Provide</p>
+            <p className='roadmap__title'>What we Provide</p>
             <div class="main-content">
                 <div class="palette__wrapper">
                     <div class="palette palette--one">

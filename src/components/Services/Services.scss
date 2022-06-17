@@ -14,6 +14,12 @@
     text-decoration-color: #fca311;
 }
 
+@media only screen and (max-width: 600px) {
+    .services__title {
+        margin-left: 20px;
+    }
+}
+
 .services {
     margin: auto;
     position: relative;
@@ -296,6 +302,6 @@
 
 }
 
-.services__link{
+.services__link {
     color: white;
 }

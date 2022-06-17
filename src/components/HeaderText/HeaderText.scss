@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:center;
-    font-weight: bold;
-    
+    text-align: center;
+
+
 
 
     -webkit-touch-callout: none;
@@ -35,8 +35,12 @@
 
     @media only screen and (max-width: 600px) {
 
-        font-size: 3rem;
-
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 800;
+        text-align:center;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
 }
