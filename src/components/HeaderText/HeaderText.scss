@@ -1,7 +1,18 @@
 .header-text {
     color: white;
-    margin-top: 15%;
-    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-weight: bold;
+    
+
 
     -webkit-touch-callout: none;
     /* iOS Safari */
@@ -18,13 +29,14 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-.title {
+.header-title {
     font-size: 5rem;
     margin-bottom: 30px;
 
     @media only screen and (max-width: 600px) {
 
         font-size: 3rem;
+
 
     }
 }
