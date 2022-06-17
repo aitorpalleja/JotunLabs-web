@@ -46,7 +46,7 @@
 .menu-btn:after {
   content: "";
   position: absolute;
-  top: 50px;
+  top: calc(50% - 1px);
   left: 30%;
   width: 40%;
   border-bottom: 2px solid white;
