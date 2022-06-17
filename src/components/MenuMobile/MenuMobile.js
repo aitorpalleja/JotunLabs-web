@@ -3,12 +3,23 @@ import '../MenuMobile/MenuMobile.scss'
 import { slide as Menu } from 'react-burger-menu'
 
 import { Link } from "react-scroll";
-
-
+import $ from 'jquery';
 //import { Link, animateScroll as scroll } from "react-scroll";
 
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+
+$(document).ready(function () {
+  $(document).delegate('.menu-btn', 'click', function (event) {
+    $("div").addClass('.wrapper');
+    event.stopPropagation();
+  })
+
+  $(document).delegate('.--prueba', 'click', function (event) {
+    $("div").remove('.wrapper');
+    event.stopPropagation();
+  })
+});
 
 
 function MenuMobile() {
@@ -20,7 +31,7 @@ function MenuMobile() {
       <label for="active" class="close"></label>
       <div class="wrapper">
         <ul>
-          <li><a href="#!">Home</a></li>
+          <li className='--prueba' ><a href="#!">Home</a></li>
           <li>
             <Link
               activeClass="active"

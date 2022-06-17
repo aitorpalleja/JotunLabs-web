@@ -1,5 +1,5 @@
 .wrapper {
-  position: fixed;
+  position: absolute;
   top: -100%;
   /*left: -100%;*/
   //right: -100%;
@@ -22,7 +22,7 @@
 }
 
 .menu-btn {
-  position: fixed;
+  position: absolute;
   z-index: 2;
   right: 20px;
   /*left: 20px; */
