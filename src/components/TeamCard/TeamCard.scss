@@ -15,10 +15,9 @@
 
   @media only screen and (max-width: 600px) {
     margin-left: 20px;
-    
+
   }
 }
-
 
 .grid-container {
   display: grid;
@@ -26,31 +25,21 @@
   padding: 10px;
   margin: 0 auto;
   margin-top: 30px;
-  
+
+  @media only screen and (max-width: 600px) {
+    padding: 50px;
+
+  }
+
 }
 
 .grid-item {
-
   //border: 1px solid white;
   padding: 20px;
   font-size: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-.team-card__title {
-  font-size: 25px;
-  text-decoration: underline;
-  color: white;
-  text-underline-offset: 10px;
-  text-decoration-color: #fca311;
-  text-align: center;
-  margin-right: 1020px;
-  margin-top: 150px;
-
-
-
 }
 
 .team-card__image {
@@ -63,7 +52,7 @@
 
 .team-card__image:hover {
   animation: shake 0.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: calc(0.5s);
 }
 
 @keyframes shake {
@@ -115,15 +104,13 @@
 .team-card__name {
   color: white;
   font-size: 15px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-top: 10px;
-  
+
 }
 
 .team-card__position {
   color: white;
   font-size: 15px;
-  margin-top:0px;
+  margin-top: 0px;
 }
-
-
