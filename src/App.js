@@ -8,7 +8,6 @@ import Menu from './components/Menu/Menu'
 import Roadmap from './components/Roadmap/Roadmap';
 import Services from './components/Services/Services';
 import TeamCard from './components/TeamCard/TeamCard'
-import MenuMobile2 from './components/MenuMobile copy/MenuMobile'
 import MenuMobile from './components/MenuMobile/MenuMobile'
 import MediaQuery from "react-responsive";
 
