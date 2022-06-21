@@ -16,6 +16,7 @@ function App() {
         <div className="App">
             <MediaQuery minWidth={1150}>
                 <Menu></Menu>
+                <Header></Header>
                 <div id="home"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
