@@ -10,20 +10,32 @@ import Services from './components/Services/Services';
 import TeamCard from './components/TeamCard/TeamCard'
 import MenuMobile2 from './components/MenuMobile copy/MenuMobile'
 import MenuMobile from './components/MenuMobile/MenuMobile'
+import MediaQuery from "react-responsive";
 
 function App() {
     return (
         <div className="App">
+            <MediaQuery minWidth={1150}>
+                <Menu></Menu>
+                <Header></Header>
+                <HeaderText></HeaderText>
+                <div id="about"> <AboutUs></AboutUs></div>
+                <div id="services"> <Services></Services></div>
+                <div id="roadmap"> <Roadmap></Roadmap></div>
+                <div id="team"> <TeamCard></TeamCard></div>
+                <Footer></Footer>
+            </MediaQuery>
 
-            <MenuMobile></MenuMobile>
-            <Header></Header>
-            <HeaderText></HeaderText>
-            <div id="about"> <AboutUs></AboutUs></div>
-            <div id="services"> <Services></Services></div> 
-            <div id="roadmap"> <Roadmap></Roadmap></div>
-            <div id="team"> <TeamCard></TeamCard></div>
-            <Footer></Footer>
-
+            <MediaQuery maxWidth={1150}>
+                <MenuMobile></MenuMobile>
+                <Header></Header>
+                <HeaderText></HeaderText>
+                <div id="about"> <AboutUs></AboutUs></div>
+                <div id="services"> <Services></Services></div>
+                <div id="roadmap"> <Roadmap></Roadmap></div>
+                <div id="team"> <TeamCard></TeamCard></div>
+                <Footer></Footer>
+            </MediaQuery>
         </div>
     );
 }
