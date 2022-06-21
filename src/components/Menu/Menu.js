@@ -12,7 +12,7 @@ function Menu() {
         <div className='fondo'>
             <nav className="menu" id='menu'>
                 <img src={logo} className="logo" alt='logo' />
-                <ul>
+                <ul className='menu__ul'>
                     <li className='menu__li'><a href="#menu">Home</a></li>
 
                     <li className='menu__li'>
