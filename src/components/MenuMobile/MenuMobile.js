@@ -31,7 +31,18 @@ function MenuMobile() {
       <label for="active" class="close"></label>
       <div class="wrapper">
         <ul>
-          <li className='--prueba' ><a href="#!">Home</a></li>
+          <li>
+            <Link
+              activeClass="active"
+              to=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
           <li>
             <Link
               activeClass="active"

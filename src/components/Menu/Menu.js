@@ -13,7 +13,18 @@ function Menu() {
             <nav className="menu" id='menu'>
                 <img src={logo} className="logo" alt='logo' />
                 <ul>
-                    <li className='menu__li'><a href="#menu">Home</a></li>
+                    <li className='menu__li'>
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >
+                            Home
+                        </Link>
+                    </li>
 
                     <li className='menu__li'>
                         <Link

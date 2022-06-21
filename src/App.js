@@ -16,8 +16,7 @@ function App() {
         <div className="App">
             <MediaQuery minWidth={1150}>
                 <Menu></Menu>
-                <Header></Header>
-                <HeaderText></HeaderText>
+                <div id="home"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
                 <div id="roadmap"> <Roadmap></Roadmap></div>
@@ -28,7 +27,7 @@ function App() {
             <MediaQuery maxWidth={1150}>
                 <MenuMobile></MenuMobile>
                 <Header></Header>
-                <HeaderText></HeaderText>
+                <div id="homemobile"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
                 <div id="roadmap"> <Roadmap></Roadmap></div>

@@ -12,8 +12,6 @@
     text-align: center;
 
 
-
-
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;
@@ -32,28 +30,35 @@
 .header-title {
     font-size: 5rem;
     margin-bottom: 30px;
+    //line-height: 3.3rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
 
     @media only screen and (max-width: 600px) {
 
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-size: 48px;
+        //line-height: 3.3rem;
         font-weight: 800;
-        text-align:center;
         margin-left: 20px;
         margin-right: 20px;
 
     }
 }
 
-.subtitle {
-    font-size: 1.5rem;
+.header-subtitle {
+
+    background: none !important;
+    font-size: 22px;
+    color: white;
+    //line-height: 0px !important;
 
     @media only screen and (max-width: 600px) {
 
-        font-size: 1rem;
-        margin: 10px;
+
 
     }
+
 }
 
 
