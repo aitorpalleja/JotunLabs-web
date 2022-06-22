@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Menu/Menu.scss'
-import logo from "../../assets/lug.png"
 import { FaDiscord } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 
@@ -15,7 +14,6 @@ function Menu() {
     return (
         <div className='fondo'>
             <nav className="menu" id='menu'>
-                <img src={logo} className="logo" alt='logo' />
                 <ul className='menu__ul'>
                     <li className='menu__li'><a href="#menu">Home</a></li>
 
