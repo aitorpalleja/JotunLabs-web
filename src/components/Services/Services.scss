@@ -20,6 +20,12 @@
     }
 }
 
+@media only screen and (max-width: 1150px) {
+    .services__title {
+        margin-left: 20px;
+    }
+}
+
 .services {
     margin: auto;
     position: relative;
