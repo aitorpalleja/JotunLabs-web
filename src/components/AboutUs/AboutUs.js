@@ -20,21 +20,21 @@ function AboutUs() {
 
                 <p className='about-us__subtitle'>
                     The core team consists of three developers and one artist.
-                    Our CTO is a computer engineer with experience in several 
+                    Our CTO is a computer engineer with experience in several
                     WEB2 startups and is currently a computer science professor.
-                    We will work divided in two teams under the SCRUM methodology, 
+                    We will work divided in two teams under the SCRUM methodology,
                     Dev Team 1 will be in charge of developing the NFTMarketCap project and will be led by our founder.
-                    Dev Team 2 will be led by our CTO and will have a team formed 
+                    Dev Team 2 will be led by our CTO and will have a team formed
                     personally by him, they will be in charge of the social network.
                 </p>
 
                 <p className='about-us__subtitle'>
-                NFTMarketCap will merge with the social network to create an all in one application 
-                and we will reorganize the groups. We will not stay alone in these two projects, 
-                our goal is to be the top 1 in bringing DApps to the general public. 
-                That's why we will organize Hackathons periodically, to find interesting 
-                projects and increase our team. Job search engines, instant messaging applications, games... 
-                We have very ambitious ideas and, luckily, also the means. 
+                    NFTMarketCap will merge with the social network to create an all in one application
+                    and we will reorganize the groups. We will not stay alone in these two projects,
+                    our goal is to be the top 1 in bringing DApps to the general public.
+                    That's why we will organize Hackathons periodically, to find interesting
+                    projects and increase our team. Job search engines, instant messaging applications, games...
+                    We have very ambitious ideas and, luckily, also the means.
                 </p>
 
 
