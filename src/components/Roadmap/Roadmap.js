@@ -12,8 +12,8 @@ function Roadmap() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          //contentArrowStyle={{ borderRight: '7px solid  rgb(252, 163, 17)' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
 
         >
           <h3 className="vertical-timeline-element-title">PRE-MINT</h3>
@@ -24,7 +24,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Marketing</h3>
           <p>
@@ -33,7 +33,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">NFTMarketCap</h3>
           <p>
@@ -43,7 +43,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Launch DAY</h3>
           <p>
@@ -52,7 +52,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">POST-MINT</h3>
           <p>
@@ -61,7 +61,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Social Network</h3>
           <p>
@@ -70,7 +70,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">$ANT</h3>
           <p>
@@ -79,7 +79,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Reward supporters</h3>
           <p>
@@ -88,7 +88,7 @@ function Roadmap() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
           <h3 className="vertical-timeline-element-title">Hackathon</h3>
           <p>
