@@ -59,7 +59,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">Like <a href="https://coinmarketcap.com/" className='services__link' target="_blank" rel='noreferrer'> CoinMarketCap,</a> but better.</p>
+                            <p className="services__text">Like CoinMarketCap, but better. We will offer the best portfolio creator to keep up to date with your earnings, without forgetting your staked NFTs. </p>
                         </div>
                     </div>
                 </div>
