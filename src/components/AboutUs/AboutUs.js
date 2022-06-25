@@ -9,14 +9,28 @@ function AboutUs() {
                 <p className='about-us__subtitle'>
                     Ants Lab was born out of our conviction that
                     WEB3 is and should be the future.
-                    We want control of our money, that's why we use Phantom instead of
-                    Binance, now we need an alternative to social media, where we can own our data. </p>
+                    We see many projects that talk about WEB3, but it is still something distant for the user, intangible.
+                    Ants Lab was formed to break down that wall that separates the two realities,
+                    we come to create decentralized alternatives to your favorite applications. </p>
 
                 <p className='about-us__subtitle'>
-                    Makes sense, right? This is where we decided to create Ants Lab
-                    and that our first big project had to be a social network.
-                    Totally decentralized, without servers where our data is stored, analyzed and exploited.
-                    We will use the Solana blockchain, due to its low transaction cost, speed and unparalleled scalability.</p>
+                    We decided that our first development will be a  <mark className='aboutus__yellow'>all-in-one Social Network.</mark> Fully decentralized,
+                    without servers where our data is stored, analyzed and exploited.
+                    We will use the Solana blockchain, due to its low transaction cost, speed and unparalleled scalability.
+                </p>
+
+                <p className='about-us__subtitle'>
+                The development has been divided into two phases. At the moment, one of our development team is 
+                working on <mark className='aboutus__yellow'>NFTMarketCap</mark>, an application focused on Solana's NFTs where you will be able to see 
+                rankings, charts, comments section, news and where users will have the option to 
+                create their portfolio and analyze their earnings in real time. 
+                We have taken into account the staked NFTs, don't worry. 
+                </p>
+
+                <p className='about-us__subtitle'>
+                When NFTMarketCap is finalized, it will be integrated into 
+                the social network to create Solana's top all-in-one application. 
+                </p>
 
                 <p className='about-us__subtitle'>
                     The core team consists of three developers and one artist.
@@ -27,16 +41,6 @@ function AboutUs() {
                     Dev Team 2 will be led by our CTO and will have a team formed
                     personally by him, they will be in charge of the social network.
                 </p>
-
-                <p className='about-us__subtitle'>
-                    NFTMarketCap will merge with the social network to create an all in one application
-                    and we will reorganize the groups. We will not stay alone in these two projects,
-                    our goal is to be the top 1 in bringing DApps to the general public.
-                    That's why we will organize Hackathons periodically, to find interesting
-                    projects and increase our team. Job search engines, instant messaging applications, games...
-                    We have very ambitious ideas and, luckily, also the means.
-                </p>
-
 
 
 

@@ -21,7 +21,7 @@ function TeamCard() {
                 </div>
                 <div class="grid-item">
                     <img className='team-card__image' src={MoneyBoy2} alt="profile" />
-                    <p className='team-card__name'>Chucky</p>
+                    <p className='team-card__name'>Osk</p>
                     <p className='team-card__position'>Head of Development  </p>
                 </div>
                 <div class="grid-item">
