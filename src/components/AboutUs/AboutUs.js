@@ -10,7 +10,7 @@ function AboutUs() {
                     Ants Lab was born out of our conviction that
                     WEB3 is and should be the future.
                     We see many projects that talk about WEB3, but it is still something distant for the user, intangible.
-                    Ants Lab was formed to break down that wall that separates the two realities,
+                    Our goal is to break down that wall that separates the two realities,
                     we come to create decentralized alternatives to your favorite applications. </p>
 
                 <p className='about-us__subtitle'>

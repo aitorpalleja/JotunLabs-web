@@ -1,4 +1,4 @@
-.header-text {
+.header-textsub {
     color: white;
     position: absolute;
     top: 0;
@@ -9,9 +9,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
     z-index: -1;
-
+    margin-top: 200px;
+    margin-right: 550px;
 
     -webkit-touch-callout: none;
     /* iOS Safari */
@@ -28,14 +29,13 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-.header-title {
-    font-size: 5rem;
+.header-titlesub {
+    font-size: 22px;
     margin-bottom: 30px;
     //line-height: 3.3rem;
     font-weight: 800;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center;
 
     @media only screen and (max-width: 600px) {
 
@@ -48,64 +48,10 @@
     }
 }
 
-.header-subtitle {
-
-    background: none !important;
-    font-size: 25px;
-    color: white;
-    position: absolute;
-    z-index: -1;
-    margin-top: 200px;
-    font-weight: 600;
-    margin-right: 420px;
-    //line-height: 0px !important;
-
-    @media only screen and (max-width: 1150px) {
-
-        margin-top: 300px;
-
-    }
-
-    @media only screen and (max-width: 1146px) {
-
-        margin-top: 300px;
-        margin-right: 0px;
-    }
-
-    @media only screen and (max-width: 1150px) {
-
-        margin-left: 20px;
-        margin-right: 20px;
-
-    }
-
-    @media only screen and (max-width: 802px) {
-
-        margin-top: 400px;
-
-    }
-
-
-    @media only screen and (max-width: 600px) {
-
-        font-size: 18px;
-        font-weight: 800;
-        margin-top: 300px;
-
-    }
-
-
-
-
-}
-
-
-mark.yellow {
-    color: #fca311;
-    background: none;
-}
-
-.yellowsub {
+.header-text-sub-yellow {
     background-color: transparent;
     color: #fca311;
+    margin-left: 57px;
+
+
 }
