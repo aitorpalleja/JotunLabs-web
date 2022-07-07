@@ -14,7 +14,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We are creating a web3 social network based on the Solana blockchain.</p>
+                            <p className="services__text">We are creating a decentralized all-in-one Social Network based on the Solana blockchain.</p>
                         </div>
                     </div>
                 </div>
