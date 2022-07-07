@@ -10,7 +10,6 @@ import Services from './components/Services/Services';
 import TeamCard from './components/TeamCard/TeamCard'
 import MenuMobile from './components/MenuMobile/MenuMobile'
 import MediaQuery from "react-responsive";
-import HeaderTextSub from './components/HeaderTextSub/HeaderTextSub';
 
 function App() {
     return (
