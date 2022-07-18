@@ -9,7 +9,7 @@ function HeaderText() {
         <div className='header-text'>
             <p className='header-title'>Building <mark className='yellow'>Decentralized Apps</mark></p> 
 
-            <p className='header-subtitle'>Create and explore with us the next generation <br></br> <mark className='yellowsub'> all-in-on Social Network </mark> based on Solana Blockchain.</p>
+            <p className='header-subtitle'>Create and explore with us the next generation <br></br> <mark className='yellowsub'> all-in-one Social Network </mark> based on Solana Blockchain.</p>
         </div>
     );
 }
