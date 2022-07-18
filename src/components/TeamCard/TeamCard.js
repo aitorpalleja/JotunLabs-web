@@ -31,7 +31,7 @@ function TeamCard() {
                 </div>
                 <div class="grid-item">
                     <img className='team-card__image' src={Monkey} alt="profile" />
-                    <p className='team-card__name'>Artist Name</p>
+                    <p className='team-card__name'>Blue Neptune</p>
                     <p className='team-card__position'>Head of Art </p>
                 </div>
                 <div class="grid-item">
