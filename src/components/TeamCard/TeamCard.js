@@ -18,7 +18,7 @@ function TeamCard() {
                     <img className='team-card__image' src={MoneyBoy} alt="profile" />
                     <p className='team-card__name'>Aitor</p>
                     <p className='team-card__position'>Founder and DEV</p>
-                    <a href="https://twitter.com/AitorForge" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
+                    <a href="https://twitter.com/Aitor_nft" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
                 </div>
                 <div class="grid-item">
                     <img className='team-card__image' src={Monkey} alt="profile" />
