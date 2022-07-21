@@ -37,7 +37,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We will have a section where the user can create and apply to job offers.</p>
+                            <p className="services__text">There will be a specific section for users to create and apply to job offers.</p>
                         </div>
                     </div>
                 </div>
