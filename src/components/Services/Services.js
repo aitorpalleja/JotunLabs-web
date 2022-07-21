@@ -29,10 +29,22 @@ function Services() {
                         </div>
                     </div>
                 </div>
+
+                <div class="palette__wrapper">
+                    <div class="palette palette--six">
+                        <div class="palette__cover">
+                            <div class="palette__cover__border"><span>JOB Search Engine</span></div>
+                        </div>
+                        <div class="palette__cover__top"></div>
+                        <div class="palette__base">
+                            <p className="services__text">We will have a section where the user can create and apply to job offers.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="palette__wrapper">
                     <div class="palette palette--two">
                         <div class="palette__cover">
-                            <div class="palette__cover__border"><span>Staking Token</span></div>
+                            <div class="palette__cover__border"><span>Staking  Token</span></div>
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
@@ -41,17 +53,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div class="palette__wrapper">
-                    <div class="palette palette--six">
-                        <div class="palette__cover">
-                            <div class="palette__cover__border"><span>REAL DAO</span></div>
-                        </div>
-                        <div class="palette__cover__top"></div>
-                        <div class="palette__base">
-                            <p className="services__text">Not a group of alpha hunters, a real DAO. With power over important decisions and the path of the project.</p>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="palette__wrapper">
                     <div class="palette palette--seven">
                         <div class="palette__cover">
@@ -92,7 +94,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We have two groups of developers who will work on different projects in parallel. All with years of experience in WEB2 companies.</p>
+                            <p className="services__text">We have two groups of developers who will work on different projects in parallel. All with years of experience in Web2 companies.</p>
                         </div>
                     </div>
                 </div>

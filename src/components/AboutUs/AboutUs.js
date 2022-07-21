@@ -16,15 +16,19 @@ function AboutUs() {
                 <p className='about-us__subtitle'>
                     We decided that our first development will be a  <mark className='aboutus__yellow'>all-in-one Social Network.</mark> Fully decentralized,
                     without servers where our data is stored, analyzed and exploited.
-                    We will use the Solana blockchain, due to its low transaction cost, speed and unparalleled scalability.
+                    We will use the Solana blockchain, due to its low transaction cost, speed and unparalleled scalability. 
+                </p>
+
+                <p className='about-us__subtitle'>
+                We will provide you with all the functionalities of a conventional social network. In addition, users will be able
+                 to have their own gallery of NFTs, updated NFTS and cryptocurrency data, graphs, Web3 job search engine...
                 </p>
 
                 <p className='about-us__subtitle'>
                 The development has been divided into two phases. At the moment, one of our development team is 
                 working on <mark className='aboutus__yellow'>NFTMarketCap</mark>, an application focused on Solana's NFTs where you will be able to see 
-                rankings, charts, comments section, news and where users will have the option to 
-                create their portfolio and analyze their earnings in real time. 
-                We have taken into account the staked NFTs, don't worry. 
+                rankings, charts, news and where users will have the option to 
+                create their portfolio and analyze their earnings in real time.
                 </p>
 
                 <p className='about-us__subtitle'>
