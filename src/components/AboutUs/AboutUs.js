@@ -21,7 +21,7 @@ function AboutUs() {
 
                 <p className='about-us__subtitle'>
                 We will provide you with all the functionalities of a conventional social network. In addition, users will be able
-                 to have their own gallery of NFTs, updated NFTs and cryptocurrency data, graphs, Web3 job search engine...
+                 to have their own <mark className='aboutus__yellow'>gallery of NFTs</mark>, updated <mark className='aboutus__yellow'>NFTs and cryptocurrency data, Web3 job search engine</mark>...
                 </p>
 
                 <p className='about-us__subtitle'>
