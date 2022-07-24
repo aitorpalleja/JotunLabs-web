@@ -42,13 +42,8 @@ function AboutUs() {
                     WEB2 startups and is currently a computer science professor.
                     We will work divided in two teams under the SCRUM methodology,
                     Dev Team 1 will be in charge of developing the NFTMarketCap project and will be led by our founder.
-                    Dev Team 2 will be led by our CTO and will have a team formed
-                    personally by him, they will be in charge of the social network.
+                    Dev Team 2 will be led by our CTO, they will be in charge of the social network.
                 </p>
-
-
-
-
             </div>
         </div>
 
