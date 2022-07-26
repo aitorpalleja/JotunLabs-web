@@ -92,7 +92,7 @@ function Roadmap() {
         >
           <h3 className="vertical-timeline-element-title">Hackathon</h3>
           <p>
-            Launch of the first developer competition. It will consist of creating a DApp, with or without theme. There will be great prizes in SOL for the winners, who will be chosen by the DAO. 
+            Launch of the first developer competition. It will consist of creating a DApp, with or without theme. There will be great prizes in SOL for the winners. 
             <p>If we believe that the project has a future, we will offer to work in our team and provide all the help to launch the project.</p>
           </p>
         </VerticalTimelineElement>
