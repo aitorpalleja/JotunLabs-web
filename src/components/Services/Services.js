@@ -48,7 +48,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We will launch our staking platform after the mint.
+                            <p className="services__text">We will launch the staking after the mint.
                                 Holders will be able to stake our NFTs to earn tokens.</p>
                         </div>
                     </div>
