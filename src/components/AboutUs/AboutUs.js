@@ -34,8 +34,8 @@ function AboutUs() {
 
 
                 <p className='about-us__subtitle'>
-                    We have two development teams, Team 1 is made up of two developers and our Founder.
-                    Team 2 is made up of 3 developers and our CTO.
+                    We have two development teams, Team 1 consists of two developers and our Founder.
+                    Team 2 consists of three developers and our CTO.
                     We know that the project is ambitious and that is
                     why we are going to divide the development into three phases.
                     As if we were working on three different applications.
