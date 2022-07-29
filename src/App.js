@@ -21,7 +21,7 @@ function App() {
                 <div id="home"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
-                <div id="services"> <Work></Work></div>
+                <div> <Work></Work></div>
                 <div id="roadmap"> <Roadmap></Roadmap></div>
                 <div id="team"> <TeamCard></TeamCard></div>
                 <Footer></Footer>
@@ -33,6 +33,7 @@ function App() {
                 <div id="homemobile"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
+                <div> <Work></Work></div>
                 <div id="roadmap"> <Roadmap></Roadmap></div>
                 <div id="team"> <TeamCard></TeamCard></div>
                 <Footer></Footer>
