@@ -9,6 +9,7 @@ import Roadmap from './components/Roadmap/Roadmap';
 import Services from './components/Services/Services';
 import TeamCard from './components/TeamCard/TeamCard'
 import MenuMobile from './components/MenuMobile/MenuMobile'
+import Work from './components/Work/Work'
 import MediaQuery from "react-responsive";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <div id="home"><HeaderText></HeaderText></div>
                 <div id="about"> <AboutUs></AboutUs></div>
                 <div id="services"> <Services></Services></div>
+                <div id="services"> <Work></Work></div>
                 <div id="roadmap"> <Roadmap></Roadmap></div>
                 <div id="team"> <TeamCard></TeamCard></div>
                 <Footer></Footer>

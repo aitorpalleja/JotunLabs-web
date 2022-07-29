@@ -65,6 +65,7 @@ function Menu() {
                             Team
                         </Link>
                     </li>
+                    
                     <li className='menu__icons'><a href="#!"><FaDiscord /></a></li>
                     <li className='menu__icons'><a href="#!"><FaTwitter /></a></li>
                 </ul>
