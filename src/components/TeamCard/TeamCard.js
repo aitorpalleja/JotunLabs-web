@@ -17,7 +17,7 @@ function TeamCard() {
                 <div class="grid-item">
                     <img className='team-card__image' src={MoneyBoy} alt="profile" />
                     <p className='team-card__name'>Aitor</p>
-                    <p className='team-card__position'>Founder and DEV</p>
+                    <p className='team-card__position'>Founder and Dev</p>
                     <a href="https://twitter.com/Aitor_nft" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
                 </div>
                 <div class="grid-item">
@@ -40,8 +40,8 @@ function TeamCard() {
                 </div>
                 <div class="grid-item">
                     <img className='team-card__image' src={Fish} alt="profile" />
-                    <p className='team-card__name'>Marketer Name</p>
-                    <p className='team-card__position'>Head of Marketing</p>
+                    <p className='team-card__name'>Santana</p>
+                    <p className='team-card__position'>Front End Developer</p>
                     <a className='notwitter' href="#!"><FaTwitter size={20} /></a>
                 </div>
                 <div class="grid-item">
