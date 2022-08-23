@@ -65,9 +65,9 @@ function Menu() {
                             Team
                         </Link>
                     </li>
-                    
+
                     <li className='menu__icons'><a href="#!"><FaDiscord /></a></li>
-                    <li className='menu__icons'><a href="#!"><FaTwitter /></a></li>
+                    <li className='menu__icons'><a href="https://twitter.com/FestusLabs" target="_blank" rel='noreferrer'><FaTwitter /></a></li>
                 </ul>
             </nav>
         </div>
