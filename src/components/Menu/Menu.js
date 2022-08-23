@@ -15,7 +15,8 @@ function Menu() {
         <div className='fondo'>
             <nav className="menu" id='menu'>
                 <ul className='menu__ul'>
-                    <li className='menu__li'><a href="#menu">Home</a></li>
+
+                    
 
                     <li className='menu__li'>
                         <Link
