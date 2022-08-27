@@ -12,6 +12,7 @@ import MenuMobile from './components/MenuMobile/MenuMobile'
 import Work from './components/Work/Work'
 import MediaQuery from "react-responsive";
 
+
 function App() {
     return (
         <div className="App">
@@ -25,6 +26,7 @@ function App() {
                 <div id="roadmap"> <Roadmap></Roadmap></div>
                 <div id="team"> <TeamCard></TeamCard></div>
                 <Footer></Footer>
+                
             </MediaQuery>
 
             <MediaQuery maxWidth={1150}>
