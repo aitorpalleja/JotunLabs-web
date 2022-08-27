@@ -5,9 +5,9 @@ function AboutUs() {
     return (
         <div className='about-us__body' id='about-us'>
             <div className='about-us__text'>
-                <p className='about-us__title'>What is Festus Labs?</p>
+                <p className='about-us__title'>What is Jotun Labs?</p>
                 <p className='about-us__subtitle'>
-                    Festus Labs was born out of our conviction that
+                    Jotun Labs was born out of our conviction that
                     decentralization is and should be the future.
                     We see many projects that talk about decentralization, web3, but it is still something distant for the user, intangible.
                     Our goal is to break down that wall that separates the two realities,

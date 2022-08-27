@@ -68,7 +68,7 @@ function Menu() {
                     </li>
 
                     <li className='menu__icons'><a href="#!"><FaDiscord /></a></li>
-                    <li className='menu__icons'><a href="https://twitter.com/FestusLabs" target="_blank" rel='noreferrer'><FaTwitter /></a></li>
+                    <li className='menu__icons'><a href="https://twitter.com/JotunLabs" target="_blank" rel='noreferrer'><FaTwitter /></a></li>
                 </ul>
             </nav>
         </div>
