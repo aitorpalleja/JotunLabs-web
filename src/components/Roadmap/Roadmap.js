@@ -37,8 +37,7 @@ function Roadmap() {
         >
           <h3 className="vertical-timeline-element-title">NFTMarketCap</h3>
           <p>
-            Dev team 1 will showcase developments on the NFTMarketCap website.
-            We will work with two-week sprints, there will be updates every Monday.
+            We will release a private beta for our followers.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -47,7 +46,7 @@ function Roadmap() {
         >
           <h3 className="vertical-timeline-element-title">Launch DAY</h3>
           <p>
-            Launch Ant NFTs on our own mint platform.
+            Launch Jotun Labs NFT collection.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -72,15 +71,6 @@ function Roadmap() {
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">$ANT</h3>
-          <p>
-            Staking platform and token launch.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
-        >
           <h3 className="vertical-timeline-element-title">Reward supporters</h3>
           <p>
             First batch of rewards to holders with PFP of our collection on Twitter
@@ -90,12 +80,23 @@ function Roadmap() {
           className="vertical-timeline-element--education"
           iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
         >
-          <h3 className="vertical-timeline-element-title">Hackathon</h3>
+          <h3 className="vertical-timeline-element-title">$JOTUN</h3>
           <p>
-            Launch of the first developer competition. It will consist of creating a DApp, with or without theme. There will be great prizes in SOL for the winners. 
-            <p>If we believe that the project has a future, we will offer to work in our team and provide all the help to launch the project.</p>
+            Staking platform and token launch.
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          iconStyle={{ background: 'rgb(252, 163, 17)', color: '#fff' }}
+        >
+          <h3 className="vertical-timeline-element-title">Hackathon</h3>
+          <p>
+            Launch of the first developer competition. It will consist of creating a DApp, with or without theme. There will be great prizes in SOL for the winners.
+            <p>Participants can receive our invitation to be part of the team and continue working with us.</p>
+          </p>
+        </VerticalTimelineElement>
+
+
       </VerticalTimeline>
 
     </div>
