@@ -1,6 +1,7 @@
 import React from 'react';
 import '../TeamCard/TeamCard.scss'
 import { FaTwitter } from 'react-icons/fa';
+import BlueJotun from '../../assets/BlueJotun'
 
 function TeamCard() {
     return (
@@ -8,7 +9,7 @@ function TeamCard() {
             <p className='team__title'>Team</p>
             <div class="grid-container">
                 <div class="grid-item">
-                    <img className='team-card__image' src="" alt="profile" />
+                    <img className='team-card__image' src={BlueJotun} alt="profile" />
                     <p className='team-card__name'>Aitor</p>
                     <p className='team-card__position'>Founder and Dev</p>
                     <a href="https://twitter.com/Aitor_nft" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
