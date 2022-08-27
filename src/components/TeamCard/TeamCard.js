@@ -1,7 +1,7 @@
 import React from 'react';
 import '../TeamCard/TeamCard.scss'
 import { FaTwitter } from 'react-icons/fa';
-import BlueJotun from '../../assets/BlueJotun'
+import BlueJotun from '../../assets/BlueJotun.png'
 
 function TeamCard() {
     return (
