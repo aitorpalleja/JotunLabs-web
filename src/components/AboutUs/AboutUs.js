@@ -9,7 +9,6 @@ function AboutUs() {
                 <p className='about-us__subtitle'>
                     Jotun Labs was born out of our conviction that
                     decentralization is and should be the future.
-                    We see many projects that talk about decentralization, web3, but it is still something distant for the user, intangible.
                     Our goal is to break down that wall that separates the two realities,
                     we come to create decentralized alternatives to your favorite applications. </p>
 
@@ -22,7 +21,7 @@ function AboutUs() {
                 <p className='about-us__subtitle'>
                     We decided that our first development will be a  <mark className='aboutus__yellow'>all-in-one Social Network.</mark> Fully decentralized,
                     without servers where our data is stored, analyzed and exploited.
-                    We will use the Solana blockchain, due to its low transaction cost, speed and unparalleled scalability.
+                    We will use the Solana Blockchain, due to its low transaction cost, speed and unparalleled scalability.
                 </p>
 
                 <p className='about-us__subtitle'>

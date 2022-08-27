@@ -14,7 +14,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We are creating a decentralized all-in-one Social Network based on the Solana blockchain.</p>
+                            <p className="services__text">We are creating a decentralized all-in-one Social Network based on the Solana Blockchain.</p>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We will offer the best portfolio creator to keep up to date with your earnings, without forgetting your staked NFTs. </p>
+                            <p className="services__text">We will offer the best NFT tracking and portfolio builder app to keep up to date with your earnings. </p>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">We will launch the staking after the mint.
+                            <p className="services__text">
                                 Holders will be able to stake our NFTs to earn tokens.</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ function Services() {
                         </div>
                         <div class="palette__cover__top"></div>
                         <div class="palette__base">
-                            <p className="services__text">DApp creation competitions. Our DAO will choose the winners, they will receive SOL and the opportunity to join our team.</p>
+                            <p className="services__text">DApp creation competitions. After choosing the winners, they will receive SOL and the opportunity to join our team.</p>
                         </div>
                     </div>
                 </div>
