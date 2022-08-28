@@ -9,7 +9,7 @@ function DevPhase() {
                     <div class="content">
                         <h2>01</h2>
                         <h3 class="phaseTitle1">NFTMarketCap</h3>
-                        <p>Rankings, charts, news, portfolio... Team 1 is already developing this.</p>
+                        <p>Rankings, charts, news, portfolio...</p>
                         {/*<a href="#">Read More</a>*/}
                         <br></br>
                         <p>Development team: Team 1. They are already working on it.</p>
