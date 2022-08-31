@@ -41,7 +41,7 @@ function Work() {
                 <p className='about-us__subtitle'>
                     We know it's important to see progress for holders,
                     so we will be <mark className='aboutus__yellow'>releasing the applications individually</mark> as they are completed.
-                    The ultimate goal is to <mark className='aboutus__yellow'>merge</mark> everything to <mark className='aboutus__yellow'>to create an all-in-one social network</mark>. We will be able to use the same profile to search and create job offers,
+                    The ultimate goal is to <mark className='aboutus__yellow'>merge</mark> everything to <mark className='aboutus__yellow'>to create an all-in-one social network</mark>. You will be able to use the same profile to search and create job offers,
                     create our portfolio and use the social network.
                 </p>
 
