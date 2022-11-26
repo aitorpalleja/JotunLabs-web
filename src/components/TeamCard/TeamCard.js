@@ -2,7 +2,7 @@ import React from 'react';
 import '../TeamCard/TeamCard.scss'
 import { FaTwitter } from 'react-icons/fa';
 import BlueJotun from '../../assets/BlueJotun.png'
-import Quequel from '../../assets/Quequel.jpeg'
+import Quequel from '../../assets/Quequel.png'
 import Jikan from '../../assets/Jikan.png'
 import Jikan2 from '../../assets/Jikan2.png'
 import Tiger from '../../assets/Tiger.png'
@@ -14,9 +14,9 @@ function TeamCard() {
             <div className="grid-container">
                 <div className="grid-item">
                     <img className='team-card__image' src={BlueJotun} alt="profile" />
-                    <p className='team-card__name'>Aitor</p>
+                    <p className='team-card__name'>Tenzo</p>
                     <p className='team-card__position'>Founder and Dev</p>
-                    <a href="https://twitter.com/Aitor_nft" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
+                    <a href="https://twitter.com/TenzoNFT" target="_blank" rel="noreferrer"><FaTwitter size={20} /></a>
                 </div>
                 <div className="grid-item">
                     <img className='team-card__image' src={Quequel} alt="profile" />
