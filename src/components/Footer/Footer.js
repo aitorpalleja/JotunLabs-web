@@ -9,7 +9,7 @@ function Footer() {
         <nav className="footer">
             <ul className='footer__list'>
                 <li className='footer__li'><a href="#!"><FaDiscord /></a></li>
-                <li className='footer__li'><a href="https://twitter.com/FestusLabs" target="_blank" rel='noreferrer'><FaTwitter /></a></li>
+                <li className='footer__li'><a href="https://twitter.com/JotunLabs" target="_blank" rel='noreferrer'><FaTwitter /></a></li>
                 <li className='footer__li'><a href="#!"><SiGitbook /></a></li>
             </ul>
         </nav>
