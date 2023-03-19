@@ -1,11 +1,7 @@
-body {
-  background: black;
-}
-
 .timeline-content {
   margin: auto;
   position: relative;
-  max-width: 120ch;
+  max-width: 1000px;
 }
 
 .roadmap__title {
@@ -15,6 +11,7 @@ body {
   text-underline-offset: 20px;
   text-decoration-color: #fca311;
   margin-bottom: 60px;
+  margin-top: 50px;
 
   @media only screen and (max-width: 600px) {
     margin-left: 20px;

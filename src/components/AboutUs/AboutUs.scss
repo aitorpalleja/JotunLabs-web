@@ -1,13 +1,11 @@
 .about-us__body {
     background-color: #000000;
     color: white;
-    display: flex;
 }
 
 .about-us__text {
     margin: auto;
-    position: relative;
-    max-width: 120ch;
+    max-width: 1000px;
 
     @media only screen and (max-width: 600px) {
         margin-left: 20px;
@@ -33,9 +31,8 @@
 }
 
 .about-us__subtitle {
-    font-size: 16px;
-    color: #e5e5e5;
-    margin-top: 30px;
+    max-width: 700px;
+    margin: 0 auto;
     opacity: 0.8;
 }
 

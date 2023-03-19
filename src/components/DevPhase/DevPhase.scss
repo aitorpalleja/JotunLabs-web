@@ -1,9 +1,11 @@
 body .containerPhase {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 50px
+  margin-top: 50px;
+
+  @media only screen and (max-width: 1150px) {
+    flex-wrap: wrap;
+  }
 }
 
 body .containerPhase .card {
@@ -17,18 +19,6 @@ body .containerPhase .card {
   margin: 30px;
   transition: 0.5s;
 }
-
-/*body .containerPhase .card:nth-child(1) .box .content a {
-  background: #2196f3;
-}
-
-body .containerPhase .card:nth-child(2) .box .content a {
-  background: #e91e63;
-}
-
-body .containerPhase .card:nth-child(3) .box .content a {
-  background: #23c186;
-}*/
 
 body .containerPhase .card .box {
   position: absolute;
